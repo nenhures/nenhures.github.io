@@ -374,6 +374,7 @@ a:active, a:visited {
     .contentGallery {
         padding: 0;
         margin-top: 2em;
+        overflow-x: hidden;
     }
   }
 
