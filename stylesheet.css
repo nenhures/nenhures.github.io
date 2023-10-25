@@ -102,6 +102,14 @@ h3 /* Work Title */ {
         margin-top: -50px;
         margin-left: -30px;
     }
+
+    h3 {
+        font-size: 1.7rem;
+    }
+
+    .content p {
+        font-size: 1rem;
+    }
 }
 
 hr {
@@ -424,17 +432,6 @@ a:active, a:visited {
         filter: drop-shadow(2px 2px 1px rgb(0, 195, 79, 0.8));
     }
   }
-
-  button {
-    border: none;
-    background: rgba(0, 195, 79, .85);
-    cursor: pointer;
-    font-family: 'Chivo Mono';
-    color: rgba(0, 0, 0, 0.6);
-    font-size: 0.7rem;
-}
-
-/* NEWSLETTER */
 
 .footerGradient {
     background: rgb(255,253,165);
