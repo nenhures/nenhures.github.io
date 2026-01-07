@@ -1,0 +1,16 @@
+
+body {
+    background: #ffffff;
+}
+
+img {
+height: 90vh;
+display: block;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

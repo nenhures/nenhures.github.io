@@ -18,6 +18,7 @@ i {
     color:black;
 }
 
+
 /* content */
 .content {
     padding: 7em 20% 3em;
@@ -351,7 +352,7 @@ a:active, a:visited {
     width: 100%;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
     .column {
       flex: 50%;
       max-width: 50%;
@@ -422,6 +423,9 @@ a:active, a:visited {
 }
 
 @media screen and (max-width: 800px) {
+    .thumbnail {
+        margin: 2em;
+    }
     .thumbnail .title {
         opacity: 0.9;
         font-size: 1rem;
@@ -433,6 +437,15 @@ a:active, a:visited {
         filter: drop-shadow(2px 2px 1px rgb(0, 195, 79, 0.8));
     }
   }
+
+@media screen and (min-width: 901px) {
+    .thumbnail {
+        margin: 2em;
+    }
+    .thumbnail img {
+        max-width: 300px;
+    }
+}
 
 .footerGradient {
     background: rgb(255,253,165);
